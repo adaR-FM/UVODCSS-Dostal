@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    background-image: url("pozadi.jpg");
+    background-size: cover;
+}
+.Nadpis{
+    color:yellow; font-family: Arial, Helvetica, sans-serif;
+}
+.Nadpis2{
+    color:green; font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Nadpis3{
+    color:red; font-family: 'Times New Roman', Times, serif;
+}
+.Tricka{
+    list-style: decimal;
+    color: white;
+}
