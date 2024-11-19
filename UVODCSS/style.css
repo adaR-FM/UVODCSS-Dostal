@@ -12,7 +12,25 @@ body{
 .Nadpis3{
     color:red; font-family: 'Times New Roman', Times, serif;
 }
-.Tricka{
-    list-style: decimal;
-    color: white;
+.Obleceni {
+    color: white; /* Výchozí barva textu */
+    list-style: upper-roman;
 }
+
+.Obleceni li::marker {
+    font-weight: bold; /* Můžete upravit styl markeru (volitelné) */
+}
+
+.Obleceni li:nth-child(1)::marker {
+    color: red; /* Barva první odrážky */
+}
+
+.Obleceni li:nth-child(2)::marker {
+    color: green; /* Barva druhé odrážky */
+}
+
+.Obleceni li:nth-child(3)::marker {
+    color: blue; /* Barva třetí odrážky */
+}
+
+
