@@ -68,31 +68,29 @@ body{
 
 .Jidlo {
     color: white; /* Výchozí barva textu */
+    
 }
 
-.Jatra::before {
-    content: url('Confused_Emoji.png');
-    display: inline-block; /* Umožní aplikovat rozměry */
-    width: 6px; /* Nastavení šířky obrázku */
-    height: 6px; /* Nastavení výšky obrázku */
-    margin-right: 10px; /* Mezera mezi obrázkem a textem */
-    object-fit: contain; /* Zajistí správný poměr stran obrázku */
+.Jatra {
+    list-style-type: none;
+    background-image: url('Confused_Emoji.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
 }
 
-.Halusky::before {
-    content: url('Smiling_Emoji.png');
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    margin-right: 10px;
-    object-fit: contain;
+.Halusky {
+    list-style-type: none;
+    background-image: url('Smiling_Emoji.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
 }
 
-.Pizza::before {
-    content: url('Heart_Eyes_Emoji.png');
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    margin-right: 10px;
-    object-fit: contain;
+.Pizza {
+    list-style-type: none;
+    background-image: url('Confused_Emoji.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
 }
