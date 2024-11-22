@@ -33,4 +33,66 @@ body{
     color: blue; /* Barva třetí odrážky */
 }
 
+.Technika {
+    color: white; /* Výchozí barva textu */
+    list-style: upper-roman;
+}
 
+.Technika li::marker {
+    font-weight: bold; /* Můžete upravit styl markeru (volitelné) */
+}
+
+.Technika li:nth-child(1)::marker {
+    color: blueviolet; /* Barva první odrážky */
+}
+
+.Technika li:nth-child(2)::marker {
+    color: bisque; /* Barva druhé odrážky */
+}
+
+.Technika li:nth-child(3)::marker {
+    color: magenta; /* Barva třetí odrážky */
+}
+
+.Mobil {
+    list-style: disc;
+}
+
+.Notebook {
+    list-style: circle;
+}
+
+.Sluchatka {
+    list-style: square;
+}
+
+.Jidlo {
+    color: white; /* Výchozí barva textu */
+}
+
+.Jatra::before {
+    content: url('Confused_Emoji.png');
+    display: inline-block; /* Umožní aplikovat rozměry */
+    width: 6px; /* Nastavení šířky obrázku */
+    height: 6px; /* Nastavení výšky obrázku */
+    margin-right: 10px; /* Mezera mezi obrázkem a textem */
+    object-fit: contain; /* Zajistí správný poměr stran obrázku */
+}
+
+.Halusky::before {
+    content: url('Smiling_Emoji.png');
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.Pizza::before {
+    content: url('Heart_Eyes_Emoji.png');
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin-right: 10px;
+    object-fit: contain;
+}
